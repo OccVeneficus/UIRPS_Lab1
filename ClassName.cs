@@ -6,7 +6,8 @@ namespace Test
 			{
 				public ClassName()
 					{
-						vat a = 0;
+						var a = 0;
+						var b = a * 32;
 					}
 			}
 }
